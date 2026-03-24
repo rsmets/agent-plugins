@@ -87,12 +87,12 @@ You can install the **deploy-on-aws** plugin from the [Cursor Marketplace](https
 
 ### Kiro (experimental)
 
-You can convert Claude Code plugin skills into Kiro skills using the [`@every-env/compound-plugin`](https://www.npmjs.com/package/@every-env/compound-plugin) CLI. This converts skills and MCP server configs into Kiro's `.kiro/` format.
+You can convert Claude Code plugins into Kiro format using the third-party [`@every-env/compound-plugin`](https://www.npmjs.com/package/@every-env/compound-plugin) CLI. This converts skills (SKILL.md workflow instructions and reference documents) and MCP server configs into Kiro's `.kiro/` format.
 
-Requires [Bun](https://bun.sh).
+Requires [Bun](https://bun.sh) (latest version recommended).
 
 > [!NOTE]
-> Hook conversion from Claude Code to Kiro is a work in progress — the hook models are not 1:1 between the two platforms. Skills and MCP servers are fully supported.
+> Hook conversion is a work in progress — hooks are currently dropped entirely during conversion because the Claude Code and Kiro hook models are not 1:1. Skills and MCP servers are fully supported.
 
 #### Project scope
 
